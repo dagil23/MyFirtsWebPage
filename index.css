@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+header  {
+    min-height: 30vh;
+    position: relative;
+
+   
+
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    box-shadow: #a88048 1px 3px 1px;
+    object-fit: cover;
+    
+}
+
+body{
+    
+    /* background: linear-gradient(#141e30, #295990); */
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-direction: column;
+    background: linear-gradient(45deg, #e0d8c8, #e9d696, #eccc8d);
+}
+main {
+    background: linear-gradient(45deg, #e0d8c8, #e9d696, #eccc8d);
+    min-height: 60vh;
+    display: flex;
+   
+    
+}
+form {
+    font-size: 24px;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    max-width: 40vw;
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 4);
+   
+    
+   
+}
+input{
+    padding: 0.1em;
+    border: 2px double black;
+    cursor:pointer;
+}
+.Recordar_contrasena{
+    font-size: smaller;
+}
+.diseño_button
+{
+    box-shadow: 2px 2px 2px 1px;
+ border-radius: 22px;
+ position: relative;
+margin: 10px;
+ width: 6em;
+ height: 2em;
+ 
+}
+#tooltip{
+    display: none;
+    border-radius: 6px;
+    background: linear-gradient(#9d7b4c,#2a2a2a);
+    padding: 10px;
+    color:white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.diseño_button:hover + #tooltip{
+    display: block;
+    visibility: visible;
+}
+
+
+nav{
+    
+max-width: 100vw;
+padding: 5px 15px;
+box-shadow:8px 8px 8px rgb(0, 0,0,0.7);
+background-color: #2a2a2a;
+display: flex;
+border-radius: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    list-style-type: none;
+    
+}
+a{
+    border-radius: 12px;
+    padding: 0.1em;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: #a88048 1px 2px 1px;
+    
+}
+
+article{
+    padding: 1em;
+  
+}
+footer {
+    min-height: 10vh;
+    text-align: right;
+    
+}
+
+
